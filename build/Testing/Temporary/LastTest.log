@@ -1,0 +1,273 @@
+Start testing: Nov 16 11:25 EET
+----------------------------------------------------------
+1/10 Testing: MoneyTest.AdditionIsCommutative
+1/10 Test: MoneyTest.AdditionIsCommutative
+Command: "/Users/artur/projects_С/lab5/RoslynRoseGarden/build/test_seedlings" "--gtest_filter=MoneyTest.AdditionIsCommutative" "--gtest_also_run_disabled_tests"
+Directory: /Users/artur/projects_С/lab5/RoslynRoseGarden/build
+"MoneyTest.AdditionIsCommutative" start time: Nov 16 11:25 EET
+Output:
+----------------------------------------------------------
+Running main() from /Users/artur/projects_С/lab5/RoslynRoseGarden/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = MoneyTest.AdditionIsCommutative
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MoneyTest
+[ RUN      ] MoneyTest.AdditionIsCommutative
+[       OK ] MoneyTest.AdditionIsCommutative (0 ms)
+[----------] 1 test from MoneyTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"MoneyTest.AdditionIsCommutative" end time: Nov 16 11:25 EET
+"MoneyTest.AdditionIsCommutative" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/10 Testing: MoneyTest.PlusEqualsMatchesPlus
+2/10 Test: MoneyTest.PlusEqualsMatchesPlus
+Command: "/Users/artur/projects_С/lab5/RoslynRoseGarden/build/test_seedlings" "--gtest_filter=MoneyTest.PlusEqualsMatchesPlus" "--gtest_also_run_disabled_tests"
+Directory: /Users/artur/projects_С/lab5/RoslynRoseGarden/build
+"MoneyTest.PlusEqualsMatchesPlus" start time: Nov 16 11:25 EET
+Output:
+----------------------------------------------------------
+Running main() from /Users/artur/projects_С/lab5/RoslynRoseGarden/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = MoneyTest.PlusEqualsMatchesPlus
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MoneyTest
+[ RUN      ] MoneyTest.PlusEqualsMatchesPlus
+[       OK ] MoneyTest.PlusEqualsMatchesPlus (0 ms)
+[----------] 1 test from MoneyTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"MoneyTest.PlusEqualsMatchesPlus" end time: Nov 16 11:25 EET
+"MoneyTest.PlusEqualsMatchesPlus" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/10 Testing: MoneyTest.SixComparisonsConsistent
+3/10 Test: MoneyTest.SixComparisonsConsistent
+Command: "/Users/artur/projects_С/lab5/RoslynRoseGarden/build/test_seedlings" "--gtest_filter=MoneyTest.SixComparisonsConsistent" "--gtest_also_run_disabled_tests"
+Directory: /Users/artur/projects_С/lab5/RoslynRoseGarden/build
+"MoneyTest.SixComparisonsConsistent" start time: Nov 16 11:25 EET
+Output:
+----------------------------------------------------------
+Running main() from /Users/artur/projects_С/lab5/RoslynRoseGarden/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = MoneyTest.SixComparisonsConsistent
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MoneyTest
+[ RUN      ] MoneyTest.SixComparisonsConsistent
+[       OK ] MoneyTest.SixComparisonsConsistent (0 ms)
+[----------] 1 test from MoneyTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"MoneyTest.SixComparisonsConsistent" end time: Nov 16 11:25 EET
+"MoneyTest.SixComparisonsConsistent" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/10 Testing: SeedlingTest.EqualityByVarietyCode
+4/10 Test: SeedlingTest.EqualityByVarietyCode
+Command: "/Users/artur/projects_С/lab5/RoslynRoseGarden/build/test_seedlings" "--gtest_filter=SeedlingTest.EqualityByVarietyCode" "--gtest_also_run_disabled_tests"
+Directory: /Users/artur/projects_С/lab5/RoslynRoseGarden/build
+"SeedlingTest.EqualityByVarietyCode" start time: Nov 16 11:25 EET
+Output:
+----------------------------------------------------------
+Running main() from /Users/artur/projects_С/lab5/RoslynRoseGarden/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SeedlingTest.EqualityByVarietyCode
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SeedlingTest
+[ RUN      ] SeedlingTest.EqualityByVarietyCode
+[       OK ] SeedlingTest.EqualityByVarietyCode (0 ms)
+[----------] 1 test from SeedlingTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"SeedlingTest.EqualityByVarietyCode" end time: Nov 16 11:25 EET
+"SeedlingTest.EqualityByVarietyCode" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/10 Testing: SeedlingTest.SortingByThreeFields
+5/10 Test: SeedlingTest.SortingByThreeFields
+Command: "/Users/artur/projects_С/lab5/RoslynRoseGarden/build/test_seedlings" "--gtest_filter=SeedlingTest.SortingByThreeFields" "--gtest_also_run_disabled_tests"
+Directory: /Users/artur/projects_С/lab5/RoslynRoseGarden/build
+"SeedlingTest.SortingByThreeFields" start time: Nov 16 11:25 EET
+Output:
+----------------------------------------------------------
+Running main() from /Users/artur/projects_С/lab5/RoslynRoseGarden/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SeedlingTest.SortingByThreeFields
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SeedlingTest
+[ RUN      ] SeedlingTest.SortingByThreeFields
+[       OK ] SeedlingTest.SortingByThreeFields (0 ms)
+[----------] 1 test from SeedlingTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"SeedlingTest.SortingByThreeFields" end time: Nov 16 11:25 EET
+"SeedlingTest.SortingByThreeFields" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/10 Testing: SeedlingTest.OutputFormat
+6/10 Test: SeedlingTest.OutputFormat
+Command: "/Users/artur/projects_С/lab5/RoslynRoseGarden/build/test_seedlings" "--gtest_filter=SeedlingTest.OutputFormat" "--gtest_also_run_disabled_tests"
+Directory: /Users/artur/projects_С/lab5/RoslynRoseGarden/build
+"SeedlingTest.OutputFormat" start time: Nov 16 11:25 EET
+Output:
+----------------------------------------------------------
+Running main() from /Users/artur/projects_С/lab5/RoslynRoseGarden/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SeedlingTest.OutputFormat
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SeedlingTest
+[ RUN      ] SeedlingTest.OutputFormat
+[       OK ] SeedlingTest.OutputFormat (0 ms)
+[----------] 1 test from SeedlingTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"SeedlingTest.OutputFormat" end time: Nov 16 11:25 EET
+"SeedlingTest.OutputFormat" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/10 Testing: SeedlingTest.RoundTripSingle
+7/10 Test: SeedlingTest.RoundTripSingle
+Command: "/Users/artur/projects_С/lab5/RoslynRoseGarden/build/test_seedlings" "--gtest_filter=SeedlingTest.RoundTripSingle" "--gtest_also_run_disabled_tests"
+Directory: /Users/artur/projects_С/lab5/RoslynRoseGarden/build
+"SeedlingTest.RoundTripSingle" start time: Nov 16 11:25 EET
+Output:
+----------------------------------------------------------
+Running main() from /Users/artur/projects_С/lab5/RoslynRoseGarden/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SeedlingTest.RoundTripSingle
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SeedlingTest
+[ RUN      ] SeedlingTest.RoundTripSingle
+[       OK ] SeedlingTest.RoundTripSingle (0 ms)
+[----------] 1 test from SeedlingTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"SeedlingTest.RoundTripSingle" end time: Nov 16 11:25 EET
+"SeedlingTest.RoundTripSingle" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/10 Testing: NurseryTest.SaveLoadRoundTrip
+8/10 Test: NurseryTest.SaveLoadRoundTrip
+Command: "/Users/artur/projects_С/lab5/RoslynRoseGarden/build/test_seedlings" "--gtest_filter=NurseryTest.SaveLoadRoundTrip" "--gtest_also_run_disabled_tests"
+Directory: /Users/artur/projects_С/lab5/RoslynRoseGarden/build
+"NurseryTest.SaveLoadRoundTrip" start time: Nov 16 11:25 EET
+Output:
+----------------------------------------------------------
+Running main() from /Users/artur/projects_С/lab5/RoslynRoseGarden/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = NurseryTest.SaveLoadRoundTrip
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from NurseryTest
+[ RUN      ] NurseryTest.SaveLoadRoundTrip
+[       OK ] NurseryTest.SaveLoadRoundTrip (0 ms)
+[----------] 1 test from NurseryTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"NurseryTest.SaveLoadRoundTrip" end time: Nov 16 11:25 EET
+"NurseryTest.SaveLoadRoundTrip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/10 Testing: StreamTest.InvalidSeedlingSetsFailbit
+9/10 Test: StreamTest.InvalidSeedlingSetsFailbit
+Command: "/Users/artur/projects_С/lab5/RoslynRoseGarden/build/test_seedlings" "--gtest_filter=StreamTest.InvalidSeedlingSetsFailbit" "--gtest_also_run_disabled_tests"
+Directory: /Users/artur/projects_С/lab5/RoslynRoseGarden/build
+"StreamTest.InvalidSeedlingSetsFailbit" start time: Nov 16 11:25 EET
+Output:
+----------------------------------------------------------
+Running main() from /Users/artur/projects_С/lab5/RoslynRoseGarden/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StreamTest.InvalidSeedlingSetsFailbit
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StreamTest
+[ RUN      ] StreamTest.InvalidSeedlingSetsFailbit
+[       OK ] StreamTest.InvalidSeedlingSetsFailbit (0 ms)
+[----------] 1 test from StreamTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"StreamTest.InvalidSeedlingSetsFailbit" end time: Nov 16 11:25 EET
+"StreamTest.InvalidSeedlingSetsFailbit" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/10 Testing: StreamTest.InvalidMoneySetsFailbit
+10/10 Test: StreamTest.InvalidMoneySetsFailbit
+Command: "/Users/artur/projects_С/lab5/RoslynRoseGarden/build/test_seedlings" "--gtest_filter=StreamTest.InvalidMoneySetsFailbit" "--gtest_also_run_disabled_tests"
+Directory: /Users/artur/projects_С/lab5/RoslynRoseGarden/build
+"StreamTest.InvalidMoneySetsFailbit" start time: Nov 16 11:25 EET
+Output:
+----------------------------------------------------------
+Running main() from /Users/artur/projects_С/lab5/RoslynRoseGarden/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StreamTest.InvalidMoneySetsFailbit
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StreamTest
+[ RUN      ] StreamTest.InvalidMoneySetsFailbit
+[       OK ] StreamTest.InvalidMoneySetsFailbit (0 ms)
+[----------] 1 test from StreamTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"StreamTest.InvalidMoneySetsFailbit" end time: Nov 16 11:25 EET
+"StreamTest.InvalidMoneySetsFailbit" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 16 11:25 EET

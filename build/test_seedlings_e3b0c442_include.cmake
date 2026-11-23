@@ -1,0 +1,5 @@
+if(EXISTS "/Users/artur/projects_С/lab5/RoslynRoseGarden/build/test_seedlings_e3b0c442_tests.cmake")
+  include("/Users/artur/projects_С/lab5/RoslynRoseGarden/build/test_seedlings_e3b0c442_tests.cmake")
+else()
+  add_test(test_seedlings_NOT_BUILT test_seedlings_NOT_BUILT)
+endif()

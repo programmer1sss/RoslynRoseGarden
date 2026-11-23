@@ -1,0 +1,14 @@
+# Target labels
+ googletest-populate
+# Source files and their labels
+/Users/artur/projects_С/lab5/RoslynRoseGarden/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate
+/Users/artur/projects_С/lab5/RoslynRoseGarden/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.rule
+/Users/artur/projects_С/lab5/RoslynRoseGarden/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete.rule
+/Users/artur/projects_С/lab5/RoslynRoseGarden/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build.rule
+/Users/artur/projects_С/lab5/RoslynRoseGarden/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure.rule
+/Users/artur/projects_С/lab5/RoslynRoseGarden/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download.rule
+/Users/artur/projects_С/lab5/RoslynRoseGarden/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install.rule
+/Users/artur/projects_С/lab5/RoslynRoseGarden/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir.rule
+/Users/artur/projects_С/lab5/RoslynRoseGarden/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch.rule
+/Users/artur/projects_С/lab5/RoslynRoseGarden/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test.rule
+/Users/artur/projects_С/lab5/RoslynRoseGarden/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update.rule

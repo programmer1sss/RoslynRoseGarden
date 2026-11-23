@@ -1,0 +1,11 @@
+build/
+build-*/
+nursery.txt
+catalog.txt
+.vscode/
+*.o
+*.d
+.DS_Store
+
+
+

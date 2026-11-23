@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/artur/projects_С/lab5/RoslynRoseGarden/build/_deps/googletest-src/googlemock/include -I/Users/artur/projects_С/lab5/RoslynRoseGarden/build/_deps/googletest-src/googlemock -isystem /Users/artur/projects_С/lab5/RoslynRoseGarden/build/_deps/googletest-src/googletest/include -isystem /Users/artur/projects_С/lab5/RoslynRoseGarden/build/_deps/googletest-src/googletest
+CXX_INCLUDES = -I/Users/artur/projects_С/lab6/RoslynRoseGarden/build/_deps/googletest-src/googlemock/include -I/Users/artur/projects_С/lab6/RoslynRoseGarden/build/_deps/googletest-src/googlemock -isystem /Users/artur/projects_С/lab6/RoslynRoseGarden/build/_deps/googletest-src/googletest/include -isystem /Users/artur/projects_С/lab6/RoslynRoseGarden/build/_deps/googletest-src/googletest
 
-CXX_FLAGS = -g -std=c++17  -DGTEST_HAS_PTHREAD=1  
+CXX_FLAGS = -std=c++17  -DGTEST_HAS_PTHREAD=1  
 

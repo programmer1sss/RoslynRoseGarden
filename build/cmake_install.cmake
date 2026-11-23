@@ -1,4 +1,4 @@
-# Install script for directory: /Users/artur/projects_С/lab5/RoslynRoseGarden
+# Install script for directory: /Users/artur/projects_С/lab6/RoslynRoseGarden
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -39,13 +39,13 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/artur/projects_С/lab5/RoslynRoseGarden/build/_deps/googletest-build/cmake_install.cmake")
+  include("/Users/artur/projects_С/lab6/RoslynRoseGarden/build/_deps/googletest-build/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/artur/projects_С/lab5/RoslynRoseGarden/build/install_local_manifest.txt"
+  file(WRITE "/Users/artur/projects_С/lab6/RoslynRoseGarden/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -61,6 +61,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/artur/projects_С/lab5/RoslynRoseGarden/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/Users/artur/projects_С/lab6/RoslynRoseGarden/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

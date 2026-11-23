@@ -31,3 +31,7 @@ src/main
 /taglist_demo
 build/
 build-asan/
+
+
+nursery.txt
+nursery_poly.txt

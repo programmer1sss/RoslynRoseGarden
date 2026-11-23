@@ -21,25 +21,30 @@ events:
       - "uname"
     candidate_directories:
       - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
       - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin/"
+      - "/opt/anaconda3/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
       - "/Library/Apple/usr/bin/"
-      - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
       - "/Users/artur/Library/Application Support/Coursier/bin/"
     searched_directories:
       - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/uname"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/uname"
       - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin/uname"
+      - "/opt/anaconda3/bin/uname"
       - "/usr/local/bin/uname"
     found: "/usr/bin/uname"
     search_context:
       ENV{PATH}:
         - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin"
+        - "/opt/anaconda3/bin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/bin"
@@ -47,6 +52,7 @@ events:
         - "/sbin"
         - "/Library/Apple/usr/bin"
         - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
@@ -81,36 +87,42 @@ events:
       - "smake"
     candidate_directories:
       - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
       - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin/"
+      - "/opt/anaconda3/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
       - "/Library/Apple/usr/bin/"
-      - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
       - "/Users/artur/Library/Application Support/Coursier/bin/"
     searched_directories:
       - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/gmake"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/gmake"
       - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin/gmake"
+      - "/opt/anaconda3/bin/gmake"
       - "/usr/local/bin/gmake"
       - "/usr/bin/gmake"
       - "/bin/gmake"
       - "/usr/sbin/gmake"
       - "/sbin/gmake"
       - "/Library/Apple/usr/bin/gmake"
-      - "/opt/anaconda3/bin/gmake"
       - "/opt/anaconda3/condabin/gmake"
       - "/Users/artur/Library/Application Support/Coursier/bin/gmake"
       - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/make"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/make"
       - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin/make"
+      - "/opt/anaconda3/bin/make"
       - "/usr/local/bin/make"
     found: "/usr/bin/make"
     search_context:
       ENV{PATH}:
         - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin"
+        - "/opt/anaconda3/bin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/bin"
@@ -118,6 +130,7 @@ events:
         - "/sbin"
         - "/Library/Apple/usr/bin"
         - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
@@ -150,25 +163,30 @@ events:
       - "clang++"
     candidate_directories:
       - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
       - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin/"
+      - "/opt/anaconda3/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
       - "/Library/Apple/usr/bin/"
-      - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
       - "/Users/artur/Library/Application Support/Coursier/bin/"
     searched_directories:
       - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/c++"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/c++"
       - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin/c++"
+      - "/opt/anaconda3/bin/c++"
       - "/usr/local/bin/c++"
     found: "/usr/bin/c++"
     search_context:
       ENV{PATH}:
         - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin"
+        - "/opt/anaconda3/bin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/bin"
@@ -176,6 +194,7 @@ events:
         - "/sbin"
         - "/Library/Apple/usr/bin"
         - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
@@ -209,7 +228,9 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin"
+        - "/opt/anaconda3/bin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/bin"
@@ -217,6 +238,7 @@ events:
         - "/sbin"
         - "/Library/Apple/usr/bin"
         - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
@@ -242,7 +264,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is AppleClang, found in:
-        /Users/artur/projects_С/lab5/RoslynRoseGarden/build/CMakeFiles/4.4.3/CompilerIdCXX/a.out
+        /Users/artur/projects_С/lab6/RoslynRoseGarden/build/CMakeFiles/4.4.3/CompilerIdCXX/a.out
       
   -
     kind: "message-v1"
@@ -294,20 +316,23 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
       - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin/"
+      - "/opt/anaconda3/bin/"
       - "/usr/local/bin/"
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
       - "/Library/Apple/usr/bin/"
-      - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
       - "/Users/artur/Library/Application Support/Coursier/bin/"
     found: "/usr/bin/ar"
     search_context:
       ENV{PATH}:
         - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin"
+        - "/opt/anaconda3/bin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/bin"
@@ -315,6 +340,7 @@ events:
         - "/sbin"
         - "/Library/Apple/usr/bin"
         - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
@@ -342,20 +368,23 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
       - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin/"
+      - "/opt/anaconda3/bin/"
       - "/usr/local/bin/"
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
       - "/Library/Apple/usr/bin/"
-      - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
       - "/Users/artur/Library/Application Support/Coursier/bin/"
     found: "/usr/bin/ranlib"
     search_context:
       ENV{PATH}:
         - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin"
+        - "/opt/anaconda3/bin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/bin"
@@ -363,6 +392,7 @@ events:
         - "/sbin"
         - "/Library/Apple/usr/bin"
         - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
@@ -390,20 +420,23 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
       - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin/"
+      - "/opt/anaconda3/bin/"
       - "/usr/local/bin/"
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
       - "/Library/Apple/usr/bin/"
-      - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
       - "/Users/artur/Library/Application Support/Coursier/bin/"
     found: "/usr/bin/strip"
     search_context:
       ENV{PATH}:
         - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin"
+        - "/opt/anaconda3/bin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/bin"
@@ -411,6 +444,7 @@ events:
         - "/sbin"
         - "/Library/Apple/usr/bin"
         - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
@@ -438,20 +472,23 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
       - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin/"
+      - "/opt/anaconda3/bin/"
       - "/usr/local/bin/"
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
       - "/Library/Apple/usr/bin/"
-      - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
       - "/Users/artur/Library/Application Support/Coursier/bin/"
     found: "/usr/bin/ld"
     search_context:
       ENV{PATH}:
         - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin"
+        - "/opt/anaconda3/bin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/bin"
@@ -459,6 +496,7 @@ events:
         - "/sbin"
         - "/Library/Apple/usr/bin"
         - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
@@ -486,20 +524,23 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
       - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin/"
+      - "/opt/anaconda3/bin/"
       - "/usr/local/bin/"
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
       - "/Library/Apple/usr/bin/"
-      - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
       - "/Users/artur/Library/Application Support/Coursier/bin/"
     found: "/usr/bin/nm"
     search_context:
       ENV{PATH}:
         - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin"
+        - "/opt/anaconda3/bin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/bin"
@@ -507,6 +548,7 @@ events:
         - "/sbin"
         - "/Library/Apple/usr/bin"
         - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
@@ -534,20 +576,23 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
       - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin/"
+      - "/opt/anaconda3/bin/"
       - "/usr/local/bin/"
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
       - "/Library/Apple/usr/bin/"
-      - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
       - "/Users/artur/Library/Application Support/Coursier/bin/"
     found: "/usr/bin/objdump"
     search_context:
       ENV{PATH}:
         - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin"
+        - "/opt/anaconda3/bin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/bin"
@@ -555,6 +600,7 @@ events:
         - "/sbin"
         - "/Library/Apple/usr/bin"
         - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
@@ -582,32 +628,36 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
       - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin/"
+      - "/opt/anaconda3/bin/"
       - "/usr/local/bin/"
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
       - "/Library/Apple/usr/bin/"
-      - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
       - "/Users/artur/Library/Application Support/Coursier/bin/"
     searched_directories:
       - "/usr/bin/objcopy"
       - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/objcopy"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/objcopy"
       - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin/objcopy"
+      - "/opt/anaconda3/bin/objcopy"
       - "/usr/local/bin/objcopy"
       - "/bin/objcopy"
       - "/usr/sbin/objcopy"
       - "/sbin/objcopy"
       - "/Library/Apple/usr/bin/objcopy"
-      - "/opt/anaconda3/bin/objcopy"
       - "/opt/anaconda3/condabin/objcopy"
       - "/Users/artur/Library/Application Support/Coursier/bin/objcopy"
     found: false
     search_context:
       ENV{PATH}:
         - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin"
+        - "/opt/anaconda3/bin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/bin"
@@ -615,6 +665,7 @@ events:
         - "/sbin"
         - "/Library/Apple/usr/bin"
         - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
@@ -642,32 +693,36 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
       - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin/"
+      - "/opt/anaconda3/bin/"
       - "/usr/local/bin/"
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
       - "/Library/Apple/usr/bin/"
-      - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
       - "/Users/artur/Library/Application Support/Coursier/bin/"
     searched_directories:
       - "/usr/bin/readelf"
       - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/readelf"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/readelf"
       - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin/readelf"
+      - "/opt/anaconda3/bin/readelf"
       - "/usr/local/bin/readelf"
       - "/bin/readelf"
       - "/usr/sbin/readelf"
       - "/sbin/readelf"
       - "/Library/Apple/usr/bin/readelf"
-      - "/opt/anaconda3/bin/readelf"
       - "/opt/anaconda3/condabin/readelf"
       - "/Users/artur/Library/Application Support/Coursier/bin/readelf"
     found: false
     search_context:
       ENV{PATH}:
         - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin"
+        - "/opt/anaconda3/bin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/bin"
@@ -675,6 +730,7 @@ events:
         - "/sbin"
         - "/Library/Apple/usr/bin"
         - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
@@ -702,32 +758,36 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
       - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin/"
+      - "/opt/anaconda3/bin/"
       - "/usr/local/bin/"
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
       - "/Library/Apple/usr/bin/"
-      - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
       - "/Users/artur/Library/Application Support/Coursier/bin/"
     searched_directories:
       - "/usr/bin/dlltool"
       - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/dlltool"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/dlltool"
       - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin/dlltool"
+      - "/opt/anaconda3/bin/dlltool"
       - "/usr/local/bin/dlltool"
       - "/bin/dlltool"
       - "/usr/sbin/dlltool"
       - "/sbin/dlltool"
       - "/Library/Apple/usr/bin/dlltool"
-      - "/opt/anaconda3/bin/dlltool"
       - "/opt/anaconda3/condabin/dlltool"
       - "/Users/artur/Library/Application Support/Coursier/bin/dlltool"
     found: false
     search_context:
       ENV{PATH}:
         - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin"
+        - "/opt/anaconda3/bin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/bin"
@@ -735,6 +795,7 @@ events:
         - "/sbin"
         - "/Library/Apple/usr/bin"
         - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
@@ -762,32 +823,36 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
       - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin/"
+      - "/opt/anaconda3/bin/"
       - "/usr/local/bin/"
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
       - "/Library/Apple/usr/bin/"
-      - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
       - "/Users/artur/Library/Application Support/Coursier/bin/"
     searched_directories:
       - "/usr/bin/addr2line"
       - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/addr2line"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/addr2line"
       - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin/addr2line"
+      - "/opt/anaconda3/bin/addr2line"
       - "/usr/local/bin/addr2line"
       - "/bin/addr2line"
       - "/usr/sbin/addr2line"
       - "/sbin/addr2line"
       - "/Library/Apple/usr/bin/addr2line"
-      - "/opt/anaconda3/bin/addr2line"
       - "/opt/anaconda3/condabin/addr2line"
       - "/Users/artur/Library/Application Support/Coursier/bin/addr2line"
     found: false
     search_context:
       ENV{PATH}:
         - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin"
+        - "/opt/anaconda3/bin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/bin"
@@ -795,6 +860,7 @@ events:
         - "/sbin"
         - "/Library/Apple/usr/bin"
         - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
@@ -822,29 +888,36 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
       - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin/"
+      - "/opt/anaconda3/bin/"
       - "/usr/local/bin/"
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
       - "/Library/Apple/usr/bin/"
-      - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
       - "/Users/artur/Library/Application Support/Coursier/bin/"
     searched_directories:
       - "/usr/bin/tapi"
       - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/tapi"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/tapi"
       - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin/tapi"
+      - "/opt/anaconda3/bin/tapi"
       - "/usr/local/bin/tapi"
       - "/bin/tapi"
       - "/usr/sbin/tapi"
       - "/sbin/tapi"
       - "/Library/Apple/usr/bin/tapi"
-    found: "/opt/anaconda3/bin/tapi"
+      - "/opt/anaconda3/condabin/tapi"
+      - "/Users/artur/Library/Application Support/Coursier/bin/tapi"
+    found: false
     search_context:
       ENV{PATH}:
         - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin"
+        - "/opt/anaconda3/bin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/bin"
@@ -852,6 +925,7 @@ events:
         - "/sbin"
         - "/Library/Apple/usr/bin"
         - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
@@ -878,25 +952,30 @@ events:
       - "install_name_tool"
     candidate_directories:
       - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
       - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin/"
+      - "/opt/anaconda3/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
       - "/Library/Apple/usr/bin/"
-      - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
       - "/Users/artur/Library/Application Support/Coursier/bin/"
     searched_directories:
       - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/install_name_tool"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/install_name_tool"
       - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin/install_name_tool"
+      - "/opt/anaconda3/bin/install_name_tool"
       - "/usr/local/bin/install_name_tool"
     found: "/usr/bin/install_name_tool"
     search_context:
       ENV{PATH}:
         - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin"
+        - "/opt/anaconda3/bin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/bin"
@@ -904,6 +983,7 @@ events:
         - "/sbin"
         - "/Library/Apple/usr/bin"
         - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
@@ -919,8 +999,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/artur/projects_\u0421/lab5/RoslynRoseGarden/build/CMakeFiles/CMakeScratch/TryCompile-M4HRjs"
-      binary: "/Users/artur/projects_\u0421/lab5/RoslynRoseGarden/build/CMakeFiles/CMakeScratch/TryCompile-M4HRjs"
+      source: "/Users/artur/projects_\u0421/lab6/RoslynRoseGarden/build/CMakeFiles/CMakeScratch/TryCompile-GWwC6F"
+      binary: "/Users/artur/projects_\u0421/lab6/RoslynRoseGarden/build/CMakeFiles/CMakeScratch/TryCompile-GWwC6F"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -934,18 +1014,18 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: false
       stdout: |
-        Change Dir: '/Users/artur/projects_С/lab5/RoslynRoseGarden/build/CMakeFiles/CMakeScratch/TryCompile-M4HRjs'
+        Change Dir: '/Users/artur/projects_С/lab6/RoslynRoseGarden/build/CMakeFiles/CMakeScratch/TryCompile-GWwC6F'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_055ce/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_055ce.dir/build.make CMakeFiles/cmTC_055ce.dir/build
-        Building CXX object CMakeFiles/cmTC_055ce.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -Wl,-v -MD -MT CMakeFiles/cmTC_055ce.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_055ce.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_055ce.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_34ad0/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_34ad0.dir/build.make CMakeFiles/cmTC_34ad0.dir/build
+        Building CXX object CMakeFiles/cmTC_34ad0.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -Wl,-v -MD -MT CMakeFiles/cmTC_34ad0.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_34ad0.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_34ad0.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Apple clang version 13.0.0 (clang-1300.0.29.30)
         Target: x86_64-apple-darwin20.6.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
         clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
-         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx11.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -fno-rounding-math -munwind-tables -target-sdk-version=12.1 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -target-linker-version 711 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0 -dependency-file CMakeFiles/cmTC_055ce.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_055ce.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -stdlib=libc++ -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -fdebug-compilation-dir /Users/artur/projects_С/lab5/RoslynRoseGarden/build/CMakeFiles/CMakeScratch/TryCompile-M4HRjs -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+nullptrToBoolConversion -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNeonImmediateRangeCheck -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+revert09abecef7bbf -mllvm -disable-aligned-alloc-awareness=1 -mllvm -enable-dse-memoryssa=0 -o CMakeFiles/cmTC_055ce.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx11.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -fno-rounding-math -munwind-tables -target-sdk-version=12.1 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -target-linker-version 711 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0 -dependency-file CMakeFiles/cmTC_34ad0.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_34ad0.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -stdlib=libc++ -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -fdebug-compilation-dir /Users/artur/projects_С/lab6/RoslynRoseGarden/build/CMakeFiles/CMakeScratch/TryCompile-GWwC6F -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+nullptrToBoolConversion -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNeonImmediateRangeCheck -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+revert09abecef7bbf -mllvm -disable-aligned-alloc-awareness=1 -mllvm -enable-dse-memoryssa=0 -o CMakeFiles/cmTC_34ad0.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 13.0.0 (clang-1300.0.29.30) default target x86_64-apple-darwin20.6.0
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
@@ -958,13 +1038,13 @@ events:
          /Library/Developer/CommandLineTools/usr/include
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
         End of search list.
-        Linking CXX executable cmTC_055ce
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_055ce.dir/link.txt --verbose=1
+        Linking CXX executable cmTC_34ad0
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34ad0.dir/link.txt --verbose=1
         Apple clang version 13.0.0 (clang-1300.0.29.30)
         Target: x86_64-apple-darwin20.6.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 11.0.0 12.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_055ce -L/usr/local/lib -v CMakeFiles/cmTC_055ce.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/lib/darwin/libclang_rt.osx.a
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 11.0.0 12.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_34ad0 -L/usr/local/lib -v CMakeFiles/cmTC_34ad0.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld  PROJECT:ld64-711
         BUILD 21:57:11 Nov 17 2021
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
@@ -973,7 +1053,7 @@ events:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
         Framework search paths:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/
-        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_055ce.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_055ce
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_34ad0.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_34ad0
         
       exitCode: 0
   -
@@ -1019,18 +1099,18 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/artur/projects_С/lab5/RoslynRoseGarden/build/CMakeFiles/CMakeScratch/TryCompile-M4HRjs']
+        ignore line: [Change Dir: '/Users/artur/projects_С/lab6/RoslynRoseGarden/build/CMakeFiles/CMakeScratch/TryCompile-GWwC6F']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_055ce/fast]
-        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_055ce.dir/build.make CMakeFiles/cmTC_055ce.dir/build]
-        ignore line: [Building CXX object CMakeFiles/cmTC_055ce.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -Wl -v -MD -MT CMakeFiles/cmTC_055ce.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_055ce.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_055ce.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_34ad0/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_34ad0.dir/build.make CMakeFiles/cmTC_34ad0.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_34ad0.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -Wl -v -MD -MT CMakeFiles/cmTC_34ad0.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_34ad0.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_34ad0.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Apple clang version 13.0.0 (clang-1300.0.29.30)]
         ignore line: [Target: x86_64-apple-darwin20.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
         ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
-        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx11.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -fno-rounding-math -munwind-tables -target-sdk-version=12.1 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -target-linker-version 711 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0 -dependency-file CMakeFiles/cmTC_055ce.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_055ce.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -stdlib=libc++ -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -fdebug-compilation-dir /Users/artur/projects_С/lab5/RoslynRoseGarden/build/CMakeFiles/CMakeScratch/TryCompile-M4HRjs -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+nullptrToBoolConversion -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNeonImmediateRangeCheck -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+revert09abecef7bbf -mllvm -disable-aligned-alloc-awareness=1 -mllvm -enable-dse-memoryssa=0 -o CMakeFiles/cmTC_055ce.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx11.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -fno-rounding-math -munwind-tables -target-sdk-version=12.1 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -target-linker-version 711 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0 -dependency-file CMakeFiles/cmTC_34ad0.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_34ad0.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -stdlib=libc++ -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -fdebug-compilation-dir /Users/artur/projects_С/lab6/RoslynRoseGarden/build/CMakeFiles/CMakeScratch/TryCompile-GWwC6F -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+nullptrToBoolConversion -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNeonImmediateRangeCheck -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+revert09abecef7bbf -mllvm -disable-aligned-alloc-awareness=1 -mllvm -enable-dse-memoryssa=0 -o CMakeFiles/cmTC_34ad0.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang -cc1 version 13.0.0 (clang-1300.0.29.30) default target x86_64-apple-darwin20.6.0]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"]
@@ -1043,14 +1123,14 @@ events:
         ignore line: [ /Library/Developer/CommandLineTools/usr/include]
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking CXX executable cmTC_055ce]
-        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_055ce.dir/link.txt --verbose=1]
+        ignore line: [Linking CXX executable cmTC_34ad0]
+        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34ad0.dir/link.txt --verbose=1]
         ignore line: [Apple clang version 13.0.0 (clang-1300.0.29.30)]
         ignore line: [Target: x86_64-apple-darwin20.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 11.0.0 12.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_055ce -L/usr/local/lib -v CMakeFiles/cmTC_055ce.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/lib/darwin/libclang_rt.osx.a] ==> linker [/Library/Developer/CommandLineTools/usr/bin/ld]
-        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 11.0.0 12.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_055ce -L/usr/local/lib -v CMakeFiles/cmTC_055ce.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 11.0.0 12.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_34ad0 -L/usr/local/lib -v CMakeFiles/cmTC_34ad0.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/lib/darwin/libclang_rt.osx.a] ==> linker [/Library/Developer/CommandLineTools/usr/bin/ld]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 11.0.0 12.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_34ad0 -L/usr/local/lib -v CMakeFiles/cmTC_34ad0.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/lib/darwin/libclang_rt.osx.a]
           arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -1065,10 +1145,10 @@ events:
           arg [-syslibroot] ==> ignore
           arg [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_055ce] ==> ignore
+          arg [cmTC_34ad0] ==> ignore
           arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_055ce.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_34ad0.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lc++] ==> lib [c++]
           arg [-lSystem] ==> lib [System]
           arg [/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/lib/darwin/libclang_rt.osx.a]
@@ -1110,7 +1190,7 @@ events:
       - "/usr/local/share/cmake/Modules/FetchContent.cmake:2160:EVAL:2 (__FetchContent_doPopulation)"
       - "/usr/local/share/cmake/Modules/FetchContent.cmake:2160 (cmake_language)"
       - "/usr/local/share/cmake/Modules/FetchContent.cmake:2401 (__FetchContent_Populate)"
-      - "CMakeLists.txt:56 (FetchContent_MakeAvailable)"
+      - "CMakeLists.txt:65 (FetchContent_MakeAvailable)"
     mode: "program"
     variable: "GIT_EXECUTABLE"
     description: "Git command line client"
@@ -1126,14 +1206,15 @@ events:
       - "git"
     candidate_directories:
       - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
       - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin/"
+      - "/opt/anaconda3/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
       - "/Library/Apple/usr/bin/"
-      - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
       - "/Users/artur/Library/Application Support/Coursier/bin/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/bin/"
@@ -1166,12 +1247,16 @@ events:
       - "/Applications/"
     searched_directories:
       - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin/git"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/git"
       - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin/git"
+      - "/opt/anaconda3/bin/git"
     found: "/usr/local/bin/git"
     search_context:
       ENV{PATH}:
         - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin"
+        - "/opt/anaconda3/bin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/bin"
@@ -1179,6 +1264,7 @@ events:
         - "/sbin"
         - "/Library/Apple/usr/bin"
         - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
@@ -1232,7 +1318,9 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin"
+        - "/opt/anaconda3/bin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/bin"
@@ -1240,6 +1328,7 @@ events:
         - "/sbin"
         - "/Library/Apple/usr/bin"
         - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
@@ -1290,7 +1379,9 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin"
+        - "/opt/anaconda3/bin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/bin"
@@ -1298,6 +1389,7 @@ events:
         - "/sbin"
         - "/Library/Apple/usr/bin"
         - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
@@ -1349,7 +1441,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
       
       The C compiler identification is AppleClang, found in:
-        /Users/artur/projects_С/lab5/RoslynRoseGarden/build/CMakeFiles/4.4.3/CompilerIdC/a.out
+        /Users/artur/projects_С/lab6/RoslynRoseGarden/build/CMakeFiles/4.4.3/CompilerIdC/a.out
       
   -
     kind: "message-v1"
@@ -1388,8 +1480,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/Users/artur/projects_\u0421/lab5/RoslynRoseGarden/build/CMakeFiles/CMakeScratch/TryCompile-YSAx6d"
-      binary: "/Users/artur/projects_\u0421/lab5/RoslynRoseGarden/build/CMakeFiles/CMakeScratch/TryCompile-YSAx6d"
+      source: "/Users/artur/projects_\u0421/lab6/RoslynRoseGarden/build/CMakeFiles/CMakeScratch/TryCompile-mCr5Ib"
+      binary: "/Users/artur/projects_\u0421/lab6/RoslynRoseGarden/build/CMakeFiles/CMakeScratch/TryCompile-mCr5Ib"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: ""
@@ -1402,18 +1494,18 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: false
       stdout: |
-        Change Dir: '/Users/artur/projects_С/lab5/RoslynRoseGarden/build/CMakeFiles/CMakeScratch/TryCompile-YSAx6d'
+        Change Dir: '/Users/artur/projects_С/lab6/RoslynRoseGarden/build/CMakeFiles/CMakeScratch/TryCompile-mCr5Ib'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_29507/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_29507.dir/build.make CMakeFiles/cmTC_29507.dir/build
-        Building C object CMakeFiles/cmTC_29507.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -v -Wl,-v -MD -MT CMakeFiles/cmTC_29507.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_29507.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_29507.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2c5e0/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2c5e0.dir/build.make CMakeFiles/cmTC_2c5e0.dir/build
+        Building C object CMakeFiles/cmTC_2c5e0.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -Wl,-v -MD -MT CMakeFiles/cmTC_2c5e0.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_2c5e0.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_2c5e0.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c
         Apple clang version 13.0.0 (clang-1300.0.29.30)
         Target: x86_64-apple-darwin20.6.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
         clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
-         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx11.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -fno-rounding-math -munwind-tables -target-sdk-version=12.1 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -target-linker-version 711 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0 -dependency-file CMakeFiles/cmTC_29507.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_29507.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdebug-compilation-dir /Users/artur/projects_С/lab5/RoslynRoseGarden/build/CMakeFiles/CMakeScratch/TryCompile-YSAx6d -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+nullptrToBoolConversion -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNeonImmediateRangeCheck -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+revert09abecef7bbf -mllvm -disable-aligned-alloc-awareness=1 -mllvm -enable-dse-memoryssa=0 -o CMakeFiles/cmTC_29507.dir/CMakeCCompilerABI.c.o -x c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx11.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -fno-rounding-math -munwind-tables -target-sdk-version=12.1 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -target-linker-version 711 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0 -dependency-file CMakeFiles/cmTC_2c5e0.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_2c5e0.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdebug-compilation-dir /Users/artur/projects_С/lab6/RoslynRoseGarden/build/CMakeFiles/CMakeScratch/TryCompile-mCr5Ib -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+nullptrToBoolConversion -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNeonImmediateRangeCheck -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+revert09abecef7bbf -mllvm -disable-aligned-alloc-awareness=1 -mllvm -enable-dse-memoryssa=0 -o CMakeFiles/cmTC_2c5e0.dir/CMakeCCompilerABI.c.o -x c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c
         clang -cc1 version 13.0.0 (clang-1300.0.29.30) default target x86_64-apple-darwin20.6.0
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
@@ -1425,13 +1517,13 @@ events:
          /Library/Developer/CommandLineTools/usr/include
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
         End of search list.
-        Linking C executable cmTC_29507
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29507.dir/link.txt --verbose=1
+        Linking C executable cmTC_2c5e0
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c5e0.dir/link.txt --verbose=1
         Apple clang version 13.0.0 (clang-1300.0.29.30)
         Target: x86_64-apple-darwin20.6.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 11.0.0 12.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_29507 -L/usr/local/lib -v CMakeFiles/cmTC_29507.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/lib/darwin/libclang_rt.osx.a
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 11.0.0 12.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_2c5e0 -L/usr/local/lib -v CMakeFiles/cmTC_2c5e0.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld  PROJECT:ld64-711
         BUILD 21:57:11 Nov 17 2021
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
@@ -1440,7 +1532,7 @@ events:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
         Framework search paths:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/
-        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_29507.dir/CMakeCCompilerABI.c.o -o cmTC_29507
+        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_2c5e0.dir/CMakeCCompilerABI.c.o -o cmTC_2c5e0
         
       exitCode: 0
   -
@@ -1484,18 +1576,18 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/artur/projects_С/lab5/RoslynRoseGarden/build/CMakeFiles/CMakeScratch/TryCompile-YSAx6d']
+        ignore line: [Change Dir: '/Users/artur/projects_С/lab6/RoslynRoseGarden/build/CMakeFiles/CMakeScratch/TryCompile-mCr5Ib']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_29507/fast]
-        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_29507.dir/build.make CMakeFiles/cmTC_29507.dir/build]
-        ignore line: [Building C object CMakeFiles/cmTC_29507.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -v -Wl -v -MD -MT CMakeFiles/cmTC_29507.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_29507.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_29507.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2c5e0/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2c5e0.dir/build.make CMakeFiles/cmTC_2c5e0.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_2c5e0.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -Wl -v -MD -MT CMakeFiles/cmTC_2c5e0.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_2c5e0.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_2c5e0.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Apple clang version 13.0.0 (clang-1300.0.29.30)]
         ignore line: [Target: x86_64-apple-darwin20.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
         ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
-        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx11.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -fno-rounding-math -munwind-tables -target-sdk-version=12.1 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -target-linker-version 711 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0 -dependency-file CMakeFiles/cmTC_29507.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_29507.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdebug-compilation-dir /Users/artur/projects_С/lab5/RoslynRoseGarden/build/CMakeFiles/CMakeScratch/TryCompile-YSAx6d -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+nullptrToBoolConversion -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNeonImmediateRangeCheck -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+revert09abecef7bbf -mllvm -disable-aligned-alloc-awareness=1 -mllvm -enable-dse-memoryssa=0 -o CMakeFiles/cmTC_29507.dir/CMakeCCompilerABI.c.o -x c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx11.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -fno-rounding-math -munwind-tables -target-sdk-version=12.1 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -target-linker-version 711 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0 -dependency-file CMakeFiles/cmTC_2c5e0.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_2c5e0.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdebug-compilation-dir /Users/artur/projects_С/lab6/RoslynRoseGarden/build/CMakeFiles/CMakeScratch/TryCompile-mCr5Ib -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+nullptrToBoolConversion -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNeonImmediateRangeCheck -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+revert09abecef7bbf -mllvm -disable-aligned-alloc-awareness=1 -mllvm -enable-dse-memoryssa=0 -o CMakeFiles/cmTC_2c5e0.dir/CMakeCCompilerABI.c.o -x c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [clang -cc1 version 13.0.0 (clang-1300.0.29.30) default target x86_64-apple-darwin20.6.0]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"]
@@ -1507,14 +1599,14 @@ events:
         ignore line: [ /Library/Developer/CommandLineTools/usr/include]
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking C executable cmTC_29507]
-        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29507.dir/link.txt --verbose=1]
+        ignore line: [Linking C executable cmTC_2c5e0]
+        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c5e0.dir/link.txt --verbose=1]
         ignore line: [Apple clang version 13.0.0 (clang-1300.0.29.30)]
         ignore line: [Target: x86_64-apple-darwin20.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 11.0.0 12.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_29507 -L/usr/local/lib -v CMakeFiles/cmTC_29507.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/lib/darwin/libclang_rt.osx.a] ==> linker [/Library/Developer/CommandLineTools/usr/bin/ld]
-        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 11.0.0 12.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_29507 -L/usr/local/lib -v CMakeFiles/cmTC_29507.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 11.0.0 12.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_2c5e0 -L/usr/local/lib -v CMakeFiles/cmTC_2c5e0.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/lib/darwin/libclang_rt.osx.a] ==> linker [/Library/Developer/CommandLineTools/usr/bin/ld]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 11.0.0 12.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_2c5e0 -L/usr/local/lib -v CMakeFiles/cmTC_2c5e0.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/lib/darwin/libclang_rt.osx.a]
           arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -1529,10 +1621,10 @@ events:
           arg [-syslibroot] ==> ignore
           arg [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_29507] ==> ignore
+          arg [cmTC_2c5e0] ==> ignore
           arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_29507.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_2c5e0.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lSystem] ==> lib [System]
           arg [/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/lib/darwin/libclang_rt.osx.a]
         linker tool for 'C': /Library/Developer/CommandLineTools/usr/bin/ld 
@@ -1688,7 +1780,9 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin"
+        - "/opt/anaconda3/bin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/bin"
@@ -1696,6 +1790,7 @@ events:
         - "/sbin"
         - "/Library/Apple/usr/bin"
         - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
@@ -1721,7 +1816,7 @@ events:
   -
     kind: "find-v1"
     backtrace:
-      - "/usr/local/share/cmake/Modules/FindPython/Support.cmake:2310 (find_program)"
+      - "/usr/local/share/cmake/Modules/FindPython/Support.cmake:2331 (find_program)"
       - "/usr/local/share/cmake/Modules/FindPython3.cmake:699 (include)"
       - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:250 (find_package)"
       - "build/_deps/googletest-src/googletest/CMakeLists.txt:81 (include)"
@@ -1737,14 +1832,14 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "python3.9mu"
-      - "python3.9m"
-      - "python3.9u"
-      - "python3.9"
-      - "python3.9dmu"
-      - "python3.9dm"
-      - "python3.9du"
-      - "python3.9d"
+      - "python3.11mu"
+      - "python3.11m"
+      - "python3.11u"
+      - "python3.11"
+      - "python3.11dmu"
+      - "python3.11dm"
+      - "python3.11du"
+      - "python3.11d"
       - "python3mu"
       - "python3m"
       - "python3u"
@@ -1762,18 +1857,20 @@ events:
       - "pythondu"
       - "pythond"
     candidate_directories:
-      - "/opt/anaconda3/bin/"
-      - "/opt/anaconda3/Scripts/"
-      - "/opt/anaconda3/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/Scripts/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/"
     searched_directories:
-      - "/opt/anaconda3/bin/python3.9mu"
-      - "/opt/anaconda3/bin/python3.9m"
-      - "/opt/anaconda3/bin/python3.9u"
-    found: "/opt/anaconda3/bin/python3.9"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11mu"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11m"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11u"
+    found: "/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11"
     search_context:
       ENV{PATH}:
         - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin"
+        - "/opt/anaconda3/bin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/bin"
@@ -1781,6 +1878,7 @@ events:
         - "/sbin"
         - "/Library/Apple/usr/bin"
         - "/Users/artur/.vscode/extensions/vadimcn.vscode-lldb-1.12.3/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Users/artur/projects_java/kood/apache-maven-3.9.9/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
@@ -1815,8 +1913,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/Users/artur/projects_\u0421/lab5/RoslynRoseGarden/build/CMakeFiles/CMakeScratch/TryCompile-5Q6DyM"
-      binary: "/Users/artur/projects_\u0421/lab5/RoslynRoseGarden/build/CMakeFiles/CMakeScratch/TryCompile-5Q6DyM"
+      source: "/Users/artur/projects_\u0421/lab6/RoslynRoseGarden/build/CMakeFiles/CMakeScratch/TryCompile-n8Illm"
+      binary: "/Users/artur/projects_\u0421/lab6/RoslynRoseGarden/build/CMakeFiles/CMakeScratch/TryCompile-n8Illm"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: ""
@@ -1829,15 +1927,15 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/Users/artur/projects_С/lab5/RoslynRoseGarden/build/CMakeFiles/CMakeScratch/TryCompile-5Q6DyM'
+        Change Dir: '/Users/artur/projects_С/lab6/RoslynRoseGarden/build/CMakeFiles/CMakeScratch/TryCompile-n8Illm'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_79764/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_79764.dir/build.make CMakeFiles/cmTC_79764.dir/build
-        Building C object CMakeFiles/cmTC_79764.dir/src.c.o
-        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -MD -MT CMakeFiles/cmTC_79764.dir/src.c.o -MF CMakeFiles/cmTC_79764.dir/src.c.o.d -o CMakeFiles/cmTC_79764.dir/src.c.o -c /Users/artur/projects_С/lab5/RoslynRoseGarden/build/CMakeFiles/CMakeScratch/TryCompile-5Q6DyM/src.c
-        Linking C executable cmTC_79764
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79764.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_79764.dir/src.c.o -o cmTC_79764
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1a022/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1a022.dir/build.make CMakeFiles/cmTC_1a022.dir/build
+        Building C object CMakeFiles/cmTC_1a022.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -MD -MT CMakeFiles/cmTC_1a022.dir/src.c.o -MF CMakeFiles/cmTC_1a022.dir/src.c.o.d -o CMakeFiles/cmTC_1a022.dir/src.c.o -c /Users/artur/projects_С/lab6/RoslynRoseGarden/build/CMakeFiles/CMakeScratch/TryCompile-n8Illm/src.c
+        Linking C executable cmTC_1a022
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a022.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_1a022.dir/src.c.o -o cmTC_1a022
         
       exitCode: 0
 ...

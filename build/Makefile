@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/artur/projects_С/lab5/RoslynRoseGarden
+CMAKE_SOURCE_DIR = /Users/artur/projects_С/lab6/RoslynRoseGarden
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/artur/projects_С/lab5/RoslynRoseGarden/build
+CMAKE_BINARY_DIR = /Users/artur/projects_С/lab6/RoslynRoseGarden/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/artur/projects_С/lab5/RoslynRoseGarden/build/CMakeFiles /Users/artur/projects_С/lab5/RoslynRoseGarden/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/artur/projects_С/lab6/RoslynRoseGarden/build/CMakeFiles /Users/artur/projects_С/lab6/RoslynRoseGarden/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/artur/projects_С/lab5/RoslynRoseGarden/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/artur/projects_С/lab6/RoslynRoseGarden/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -185,17 +185,17 @@ nursery_demo/fast:
 .PHONY : nursery_demo/fast
 
 #=============================================================================
-# Target rules for targets named test_seedlings
+# Target rules for targets named test_nursery
 
 # Build rule for target.
-test_seedlings: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_seedlings
-.PHONY : test_seedlings
+test_nursery: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_nursery
+.PHONY : test_nursery
 
 # fast build rule for target.
-test_seedlings/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_seedlings.dir/build.make CMakeFiles/test_seedlings.dir/build
-.PHONY : test_seedlings/fast
+test_nursery/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nursery.dir/build.make CMakeFiles/test_nursery.dir/build
+.PHONY : test_nursery/fast
 
 #=============================================================================
 # Target rules for targets named gmock
@@ -249,13 +249,67 @@ gtest_main/fast:
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
+src/DiamondExperiment.o: src/DiamondExperiment.cpp.o
+.PHONY : src/DiamondExperiment.o
+
+# target to build an object file
+src/DiamondExperiment.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nursery_demo.dir/build.make CMakeFiles/nursery_demo.dir/src/DiamondExperiment.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nursery.dir/build.make CMakeFiles/test_nursery.dir/src/DiamondExperiment.cpp.o
+.PHONY : src/DiamondExperiment.cpp.o
+
+src/DiamondExperiment.i: src/DiamondExperiment.cpp.i
+.PHONY : src/DiamondExperiment.i
+
+# target to preprocess a source file
+src/DiamondExperiment.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nursery_demo.dir/build.make CMakeFiles/nursery_demo.dir/src/DiamondExperiment.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nursery.dir/build.make CMakeFiles/test_nursery.dir/src/DiamondExperiment.cpp.i
+.PHONY : src/DiamondExperiment.cpp.i
+
+src/DiamondExperiment.s: src/DiamondExperiment.cpp.s
+.PHONY : src/DiamondExperiment.s
+
+# target to generate assembly for a file
+src/DiamondExperiment.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nursery_demo.dir/build.make CMakeFiles/nursery_demo.dir/src/DiamondExperiment.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nursery.dir/build.make CMakeFiles/test_nursery.dir/src/DiamondExperiment.cpp.s
+.PHONY : src/DiamondExperiment.cpp.s
+
+src/FruitSeedling.o: src/FruitSeedling.cpp.o
+.PHONY : src/FruitSeedling.o
+
+# target to build an object file
+src/FruitSeedling.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nursery_demo.dir/build.make CMakeFiles/nursery_demo.dir/src/FruitSeedling.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nursery.dir/build.make CMakeFiles/test_nursery.dir/src/FruitSeedling.cpp.o
+.PHONY : src/FruitSeedling.cpp.o
+
+src/FruitSeedling.i: src/FruitSeedling.cpp.i
+.PHONY : src/FruitSeedling.i
+
+# target to preprocess a source file
+src/FruitSeedling.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nursery_demo.dir/build.make CMakeFiles/nursery_demo.dir/src/FruitSeedling.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nursery.dir/build.make CMakeFiles/test_nursery.dir/src/FruitSeedling.cpp.i
+.PHONY : src/FruitSeedling.cpp.i
+
+src/FruitSeedling.s: src/FruitSeedling.cpp.s
+.PHONY : src/FruitSeedling.s
+
+# target to generate assembly for a file
+src/FruitSeedling.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nursery_demo.dir/build.make CMakeFiles/nursery_demo.dir/src/FruitSeedling.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nursery.dir/build.make CMakeFiles/test_nursery.dir/src/FruitSeedling.cpp.s
+.PHONY : src/FruitSeedling.cpp.s
+
 src/Money.o: src/Money.cpp.o
 .PHONY : src/Money.o
 
 # target to build an object file
 src/Money.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nursery_demo.dir/build.make CMakeFiles/nursery_demo.dir/src/Money.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_seedlings.dir/build.make CMakeFiles/test_seedlings.dir/src/Money.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nursery.dir/build.make CMakeFiles/test_nursery.dir/src/Money.cpp.o
 .PHONY : src/Money.cpp.o
 
 src/Money.i: src/Money.cpp.i
@@ -264,7 +318,7 @@ src/Money.i: src/Money.cpp.i
 # target to preprocess a source file
 src/Money.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nursery_demo.dir/build.make CMakeFiles/nursery_demo.dir/src/Money.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_seedlings.dir/build.make CMakeFiles/test_seedlings.dir/src/Money.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nursery.dir/build.make CMakeFiles/test_nursery.dir/src/Money.cpp.i
 .PHONY : src/Money.cpp.i
 
 src/Money.s: src/Money.cpp.s
@@ -273,7 +327,7 @@ src/Money.s: src/Money.cpp.s
 # target to generate assembly for a file
 src/Money.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nursery_demo.dir/build.make CMakeFiles/nursery_demo.dir/src/Money.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_seedlings.dir/build.make CMakeFiles/test_seedlings.dir/src/Money.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nursery.dir/build.make CMakeFiles/test_nursery.dir/src/Money.cpp.s
 .PHONY : src/Money.cpp.s
 
 src/Nursery.o: src/Nursery.cpp.o
@@ -282,7 +336,7 @@ src/Nursery.o: src/Nursery.cpp.o
 # target to build an object file
 src/Nursery.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nursery_demo.dir/build.make CMakeFiles/nursery_demo.dir/src/Nursery.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_seedlings.dir/build.make CMakeFiles/test_seedlings.dir/src/Nursery.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nursery.dir/build.make CMakeFiles/test_nursery.dir/src/Nursery.cpp.o
 .PHONY : src/Nursery.cpp.o
 
 src/Nursery.i: src/Nursery.cpp.i
@@ -291,7 +345,7 @@ src/Nursery.i: src/Nursery.cpp.i
 # target to preprocess a source file
 src/Nursery.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nursery_demo.dir/build.make CMakeFiles/nursery_demo.dir/src/Nursery.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_seedlings.dir/build.make CMakeFiles/test_seedlings.dir/src/Nursery.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nursery.dir/build.make CMakeFiles/test_nursery.dir/src/Nursery.cpp.i
 .PHONY : src/Nursery.cpp.i
 
 src/Nursery.s: src/Nursery.cpp.s
@@ -300,35 +354,89 @@ src/Nursery.s: src/Nursery.cpp.s
 # target to generate assembly for a file
 src/Nursery.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nursery_demo.dir/build.make CMakeFiles/nursery_demo.dir/src/Nursery.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_seedlings.dir/build.make CMakeFiles/test_seedlings.dir/src/Nursery.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nursery.dir/build.make CMakeFiles/test_nursery.dir/src/Nursery.cpp.s
 .PHONY : src/Nursery.cpp.s
 
-src/Seedling.o: src/Seedling.cpp.o
-.PHONY : src/Seedling.o
+src/NurseryOrder.o: src/NurseryOrder.cpp.o
+.PHONY : src/NurseryOrder.o
 
 # target to build an object file
-src/Seedling.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nursery_demo.dir/build.make CMakeFiles/nursery_demo.dir/src/Seedling.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_seedlings.dir/build.make CMakeFiles/test_seedlings.dir/src/Seedling.cpp.o
-.PHONY : src/Seedling.cpp.o
+src/NurseryOrder.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nursery_demo.dir/build.make CMakeFiles/nursery_demo.dir/src/NurseryOrder.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nursery.dir/build.make CMakeFiles/test_nursery.dir/src/NurseryOrder.cpp.o
+.PHONY : src/NurseryOrder.cpp.o
 
-src/Seedling.i: src/Seedling.cpp.i
-.PHONY : src/Seedling.i
+src/NurseryOrder.i: src/NurseryOrder.cpp.i
+.PHONY : src/NurseryOrder.i
 
 # target to preprocess a source file
-src/Seedling.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nursery_demo.dir/build.make CMakeFiles/nursery_demo.dir/src/Seedling.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_seedlings.dir/build.make CMakeFiles/test_seedlings.dir/src/Seedling.cpp.i
-.PHONY : src/Seedling.cpp.i
+src/NurseryOrder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nursery_demo.dir/build.make CMakeFiles/nursery_demo.dir/src/NurseryOrder.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nursery.dir/build.make CMakeFiles/test_nursery.dir/src/NurseryOrder.cpp.i
+.PHONY : src/NurseryOrder.cpp.i
 
-src/Seedling.s: src/Seedling.cpp.s
-.PHONY : src/Seedling.s
+src/NurseryOrder.s: src/NurseryOrder.cpp.s
+.PHONY : src/NurseryOrder.s
 
 # target to generate assembly for a file
-src/Seedling.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nursery_demo.dir/build.make CMakeFiles/nursery_demo.dir/src/Seedling.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_seedlings.dir/build.make CMakeFiles/test_seedlings.dir/src/Seedling.cpp.s
-.PHONY : src/Seedling.cpp.s
+src/NurseryOrder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nursery_demo.dir/build.make CMakeFiles/nursery_demo.dir/src/NurseryOrder.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nursery.dir/build.make CMakeFiles/test_nursery.dir/src/NurseryOrder.cpp.s
+.PHONY : src/NurseryOrder.cpp.s
+
+src/OrnamentalShrub.o: src/OrnamentalShrub.cpp.o
+.PHONY : src/OrnamentalShrub.o
+
+# target to build an object file
+src/OrnamentalShrub.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nursery_demo.dir/build.make CMakeFiles/nursery_demo.dir/src/OrnamentalShrub.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nursery.dir/build.make CMakeFiles/test_nursery.dir/src/OrnamentalShrub.cpp.o
+.PHONY : src/OrnamentalShrub.cpp.o
+
+src/OrnamentalShrub.i: src/OrnamentalShrub.cpp.i
+.PHONY : src/OrnamentalShrub.i
+
+# target to preprocess a source file
+src/OrnamentalShrub.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nursery_demo.dir/build.make CMakeFiles/nursery_demo.dir/src/OrnamentalShrub.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nursery.dir/build.make CMakeFiles/test_nursery.dir/src/OrnamentalShrub.cpp.i
+.PHONY : src/OrnamentalShrub.cpp.i
+
+src/OrnamentalShrub.s: src/OrnamentalShrub.cpp.s
+.PHONY : src/OrnamentalShrub.s
+
+# target to generate assembly for a file
+src/OrnamentalShrub.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nursery_demo.dir/build.make CMakeFiles/nursery_demo.dir/src/OrnamentalShrub.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nursery.dir/build.make CMakeFiles/test_nursery.dir/src/OrnamentalShrub.cpp.s
+.PHONY : src/OrnamentalShrub.cpp.s
+
+src/PlantingMaterial.o: src/PlantingMaterial.cpp.o
+.PHONY : src/PlantingMaterial.o
+
+# target to build an object file
+src/PlantingMaterial.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nursery_demo.dir/build.make CMakeFiles/nursery_demo.dir/src/PlantingMaterial.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nursery.dir/build.make CMakeFiles/test_nursery.dir/src/PlantingMaterial.cpp.o
+.PHONY : src/PlantingMaterial.cpp.o
+
+src/PlantingMaterial.i: src/PlantingMaterial.cpp.i
+.PHONY : src/PlantingMaterial.i
+
+# target to preprocess a source file
+src/PlantingMaterial.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nursery_demo.dir/build.make CMakeFiles/nursery_demo.dir/src/PlantingMaterial.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nursery.dir/build.make CMakeFiles/test_nursery.dir/src/PlantingMaterial.cpp.i
+.PHONY : src/PlantingMaterial.cpp.i
+
+src/PlantingMaterial.s: src/PlantingMaterial.cpp.s
+.PHONY : src/PlantingMaterial.s
+
+# target to generate assembly for a file
+src/PlantingMaterial.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nursery_demo.dir/build.make CMakeFiles/nursery_demo.dir/src/PlantingMaterial.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nursery.dir/build.make CMakeFiles/test_nursery.dir/src/PlantingMaterial.cpp.s
+.PHONY : src/PlantingMaterial.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -354,29 +462,29 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nursery_demo.dir/build.make CMakeFiles/nursery_demo.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-tests/test_seedlings.o: tests/test_seedlings.cpp.o
-.PHONY : tests/test_seedlings.o
+tests/tests.o: tests/tests.cpp.o
+.PHONY : tests/tests.o
 
 # target to build an object file
-tests/test_seedlings.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_seedlings.dir/build.make CMakeFiles/test_seedlings.dir/tests/test_seedlings.cpp.o
-.PHONY : tests/test_seedlings.cpp.o
+tests/tests.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nursery.dir/build.make CMakeFiles/test_nursery.dir/tests/tests.cpp.o
+.PHONY : tests/tests.cpp.o
 
-tests/test_seedlings.i: tests/test_seedlings.cpp.i
-.PHONY : tests/test_seedlings.i
+tests/tests.i: tests/tests.cpp.i
+.PHONY : tests/tests.i
 
 # target to preprocess a source file
-tests/test_seedlings.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_seedlings.dir/build.make CMakeFiles/test_seedlings.dir/tests/test_seedlings.cpp.i
-.PHONY : tests/test_seedlings.cpp.i
+tests/tests.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nursery.dir/build.make CMakeFiles/test_nursery.dir/tests/tests.cpp.i
+.PHONY : tests/tests.cpp.i
 
-tests/test_seedlings.s: tests/test_seedlings.cpp.s
-.PHONY : tests/test_seedlings.s
+tests/tests.s: tests/tests.cpp.s
+.PHONY : tests/tests.s
 
 # target to generate assembly for a file
-tests/test_seedlings.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_seedlings.dir/build.make CMakeFiles/test_seedlings.dir/tests/test_seedlings.cpp.s
-.PHONY : tests/test_seedlings.cpp.s
+tests/tests.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nursery.dir/build.make CMakeFiles/test_nursery.dir/tests/tests.cpp.s
+.PHONY : tests/tests.cpp.s
 
 # Help Target
 help:
@@ -396,22 +504,34 @@ help:
 	@echo "... gtest"
 	@echo "... gtest_main"
 	@echo "... nursery_demo"
-	@echo "... test_seedlings"
+	@echo "... test_nursery"
+	@echo "... src/DiamondExperiment.o"
+	@echo "... src/DiamondExperiment.i"
+	@echo "... src/DiamondExperiment.s"
+	@echo "... src/FruitSeedling.o"
+	@echo "... src/FruitSeedling.i"
+	@echo "... src/FruitSeedling.s"
 	@echo "... src/Money.o"
 	@echo "... src/Money.i"
 	@echo "... src/Money.s"
 	@echo "... src/Nursery.o"
 	@echo "... src/Nursery.i"
 	@echo "... src/Nursery.s"
-	@echo "... src/Seedling.o"
-	@echo "... src/Seedling.i"
-	@echo "... src/Seedling.s"
+	@echo "... src/NurseryOrder.o"
+	@echo "... src/NurseryOrder.i"
+	@echo "... src/NurseryOrder.s"
+	@echo "... src/OrnamentalShrub.o"
+	@echo "... src/OrnamentalShrub.i"
+	@echo "... src/OrnamentalShrub.s"
+	@echo "... src/PlantingMaterial.o"
+	@echo "... src/PlantingMaterial.i"
+	@echo "... src/PlantingMaterial.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... tests/test_seedlings.o"
-	@echo "... tests/test_seedlings.i"
-	@echo "... tests/test_seedlings.s"
+	@echo "... tests/tests.o"
+	@echo "... tests/tests.i"
+	@echo "... tests/tests.s"
 .PHONY : help
 
 

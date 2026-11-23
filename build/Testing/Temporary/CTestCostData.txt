@@ -1,11 +1,9 @@
-MoneyTest.AdditionIsCommutative 1 0.0954319
-MoneyTest.PlusEqualsMatchesPlus 1 0.0861533
-MoneyTest.SixComparisonsConsistent 1 0.0934873
-SeedlingTest.EqualityByVarietyCode 1 0.0883263
-SeedlingTest.SortingByThreeFields 1 0.0867255
-SeedlingTest.OutputFormat 1 0.0886632
-SeedlingTest.RoundTripSingle 1 0.0922042
-NurseryTest.SaveLoadRoundTrip 1 0.0897572
-StreamTest.InvalidSeedlingSetsFailbit 1 0.0873111
-StreamTest.InvalidMoneySetsFailbit 1 0.0882597
+PlantingMaterialTest.ThrowsOnInvalidArguments 2 0.0599569
+FruitSeedlingTest.CalculatesFinalPriceAndYield 2 0.0451703
+OrnamentalShrubTest.CalculatesFinalPriceAndBloomingSeason 2 0.0465777
+NurseryCollectionTest.StoresPolymorphicObjectsAndCalculatesTotal 2 0.0470108
+NurserySerializationTest.SavesAndRestoresDerivedTypesLosslessly 2 0.0479514
+NurseryOrderCompositionTest.AppliesDiscountToComposedNurseryItems 2 0.048938
+PolymorphismTest.InvokesDerivedDestructorViaBasePointer 2 0.0516056
+DiamondInheritanceTest.VirtualInheritanceSharesSingleBaseSubobject 2 0.0471854
 ---

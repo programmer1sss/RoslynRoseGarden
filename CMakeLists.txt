@@ -27,15 +27,24 @@ function(apply_warnings_and_sanitizers target)
     endif()
 endfunction()
 
+# ── Спільні файли предметної області (без main.cpp) ──
+set(NURSERY_SOURCES
+    src/Money.cpp
+    src/PlantingMaterial.cpp
+    src/FruitSeedling.cpp
+    src/OrnamentalShrub.cpp
+    src/Nursery.cpp
+    src/NurseryOrder.cpp
+    src/DiamondExperiment.cpp
+)
+
 # ════════════════════════════════════════════════════════════════
 #  ГОЛОВНА ПРОГРАМА
 # ════════════════════════════════════════════════════════════════
 
 add_executable(nursery_demo
     src/main.cpp
-    src/Money.cpp
-    src/Seedling.cpp
-    src/Nursery.cpp
+    ${NURSERY_SOURCES}
 )
 target_compile_features(nursery_demo PRIVATE cxx_std_17)
 target_include_directories(nursery_demo PRIVATE src)
@@ -55,17 +64,15 @@ FetchContent_Declare(
 set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 FetchContent_MakeAvailable(googletest)
 
-# Тести для індивідуального завдання (Розсадник)
-add_executable(test_seedlings
-    tests/test_seedlings.cpp
-    src/Money.cpp
-    src/Seedling.cpp
-    src/Nursery.cpp
+# Тести для наскрізного проєкту (Розсадник)
+add_executable(test_nursery
+    tests/tests.cpp
+    ${NURSERY_SOURCES}
 )
-target_compile_features(test_seedlings PRIVATE cxx_std_17)
-target_include_directories(test_seedlings PRIVATE src)
-target_link_libraries(test_seedlings PRIVATE GTest::gtest_main)
-apply_warnings_and_sanitizers(test_seedlings)
+target_compile_features(test_nursery PRIVATE cxx_std_17)
+target_include_directories(test_nursery PRIVATE src)
+target_link_libraries(test_nursery PRIVATE GTest::gtest_main)
+apply_warnings_and_sanitizers(test_nursery)
 
 include(GoogleTest)
-gtest_discover_tests(test_seedlings)
+gtest_discover_tests(test_nursery)

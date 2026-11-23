@@ -1,7 +1,7 @@
 CMakeFiles/nursery_demo.dir/src/Money.cpp.o: \
   /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/share/asan_blacklist.txt \
-  /Users/artur/projects_С/lab5/RoslynRoseGarden/src/Money.cpp \
-  /Users/artur/projects_С/lab5/RoslynRoseGarden/src/Money.h \
+  /Users/artur/projects_С/lab6/RoslynRoseGarden/src/Money.cpp \
+  /Users/artur/projects_С/lab6/RoslynRoseGarden/src/Money.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstddef \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread.h \

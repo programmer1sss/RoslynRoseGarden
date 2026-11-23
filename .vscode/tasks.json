@@ -15,16 +15,28 @@
                 "-fcolor-diagnostics",
                 "-fansi-escape-codes",
                 "${workspaceFolder}/src/main.cpp",
-                "${workspaceFolder}/src/Nursery.cpp",
-                "${workspaceFolder}/src/Seedling.cpp",
                 "${workspaceFolder}/src/Money.cpp",
-            
-                "-I", "${workspaceFolder}/src",
-                "-o", "${workspaceFolder}/build/my_program"
+                "${workspaceFolder}/src/PlantingMaterial.cpp",
+                "${workspaceFolder}/src/FruitSeedling.cpp",
+                "${workspaceFolder}/src/OrnamentalShrub.cpp",
+                "${workspaceFolder}/src/Nursery.cpp",
+                "${workspaceFolder}/src/NurseryOrder.cpp",
+                "${workspaceFolder}/src/DiamondExperiment.cpp",
+                "-I",
+                "${workspaceFolder}/src",
+                "-o",
+                "${workspaceFolder}/build/my_program"
             ],
-            "options": { "cwd": "${workspaceFolder}" },
-            "problemMatcher": ["$gcc"],
-            "group": { "kind": "build", "isDefault": true }
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ]
 }
